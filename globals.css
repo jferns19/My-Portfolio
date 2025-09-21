@@ -1,0 +1,28 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:var(--body-font-weight),400,700,var(--heading-1-font-weight),var(--sub-heading-font-weight)");
+
+/* Set base font size for rem calculations: 1rem = 8px */
+html {
+  font-size: 8px;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 0.25rem solid #4a90e2 !important; /* 2px */
+  outline: -webkit-focus-ring-color auto 0.625rem !important; /* 5px */
+}
+
+a {
+  text-decoration: none;
+}

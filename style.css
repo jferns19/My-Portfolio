@@ -1,0 +1,867 @@
+.minimalistic-design {
+  background-color: #e8e8e8;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+  font-size: 0.5rem; /* 4px base for calculations */
+}
+
+.minimalistic-design .frame-wrapper {
+  background-color: var(--e-8e-8e-8);
+  width: 180rem; /* 1440px */
+  min-height: 514.75rem; /* 4118px */
+}
+
+.minimalistic-design .frame {
+  display: flex;
+  flex-direction: column;
+  width: 155.25rem; /* 1242px */
+  align-items: flex-start;
+  gap: 16.5rem; /* 132px */
+  position: relative;
+  top: 6rem; /* 48px */
+  left: 12.5rem; /* 100px */
+}
+
+/*HEADER*/
+
+.minimalistic-design .header {
+  display: flex;
+  align-items: flex-end;
+  gap: 12rem; /* 132px */
+  padding: 0 7.625rem; /* 61px */
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+
+.minimalistic-design .hero-text {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 3rem; /* 24px */
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.minimalistic-design .intro {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem; /* 8px */
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.minimalistic-design .jessica {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.125rem; /* -1px */
+  font-family: var(--heading-1-font-family);
+  font-weight: var(--heading-1-font-weight);
+  color: var(--x-130009);
+  font-size: 7rem; /* 76px */
+  text-align: right;
+  letter-spacing: -0.19rem; /* -1.52px */
+  line-height: 8rem; /* 92px */
+  font-style: var(--heading-1-font-style);
+}
+
+.minimalistic-design .creating-interactive {
+  position: relative;
+  align-self: stretch;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: var(--x-130009);
+  font-size: 2.5rem; /* 20px */
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.minimalistic-design .contact-button {
+  display: flex;
+  width: 23.75rem; 
+  align-items: center;
+  justify-content: center;
+  gap: 0.9375rem; 
+  padding: 2rem 3.25rem; 
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--x-8d-0949);
+  border-radius: 4.125rem; 
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+  
+}
+
+.minimalistic-design .portfolio {
+  position: relative;
+  width: 100%; /* 505px */
+  height: 70rem; /* 650px */
+  object-fit: cover;
+}
+
+/*TOP SKILLS*/
+
+.minimalistic-design .top-skills {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* 10px */
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.minimalistic-design .skill {
+  display: flex;
+  flex-direction: column;
+  width: 50rem; /* 295px */
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem; /* 12px */
+  position: relative;
+}
+
+.minimalistic-design .div {
+  position: relative;
+  align-self: stretch;
+  margin-top: -0.125rem; /* -1px */
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 2rem; /* 16px */
+  text-align: center;
+  letter-spacing: -0.04rem; /* -0.32px */
+  line-height: normal;
+}
+
+.minimalistic-design .text-wrapper-2 {
+  position: relative;
+  width: 31rem; /* 245px */
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 2rem; /* 16px */
+  text-align: center;
+  letter-spacing: -0.04rem; /* -0.32px */
+  line-height: normal;
+}
+
+.minimalistic-design .line {
+  position: relative;
+  width: 0.125rem; /* 1px */
+  height: 10.375rem; /* 83px */
+  object-fit: cover;
+}
+
+/*ABOUT*/
+
+.minimalistic-design .div-2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 15.625rem; /* 125px */
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.minimalistic-design .heading-1 {
+  position: relative;
+  width: 66rem; /* 505px */
+  margin-top: -0.125rem; /* -1px */
+  font-family: var(--heading-1-font-family);
+  font-weight: var(--heading-1-font-weight);
+  color: #8d0949 /*var(--x-8d-0949)*/;
+  font-size: 8.5rem; /* 76px */
+  letter-spacing: -0.3rem; /* -1.52px */
+  line-height: 10rem; /* 92px */
+  font-style: var(--heading-1-font-style);
+}
+
+.minimalistic-design .about-me {
+  display: flex;
+  flex-direction: column;
+  width: 76.25rem; /* 610px */
+  align-items: flex-start;
+  gap: 3.5rem; /* 28px */
+  position: relative;
+}
+
+.minimalistic-design .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -0.125rem; /* -1px */
+  font-family: var(--sub-heading-font-family);
+  font-weight: var(--sub-heading-font-weight);
+  color: var(--x-130009);
+  font-size: 3.5rem; /* 28px */
+  letter-spacing: var(--sub-heading-letter-spacing);
+  line-height: var(--sub-heading-line-height);
+  font-style: var(--sub-heading-font-style);
+}
+
+.minimalistic-design .p {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--body-font-family);
+  font-weight: var(--body-font-weight);
+  color: var(--x-4f-4f-4f);
+  font-size: 2.5rem; /* 20px */
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  font-style: var(--body-font-style);
+}
+
+.minimalistic-design .learn-more {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9375rem; /* 7.5px */
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 1.5rem; /* 12px */
+}
+
+.minimalistic-design .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.09375rem; /* -0.75px */
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: var(--x-4f-4f-4f);
+  font-size: 2.5rem; /* 20px */
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+/*WORKS*/
+
+.minimalistic-design .my-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8.75rem; /* 70px */
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.minimalistic-design .text-wrapper-6 {
+  position: relative;
+  width: 76.25rem; /* 610px */
+  margin-top: -0.125rem; /* -1px */
+  font-family: var(--sub-heading-font-family);
+  font-weight: var(--sub-heading-font-weight);
+  color: var(--x-130009);
+  font-size: 3.5rem; /* 28px */
+  letter-spacing: var(--sub-heading-letter-spacing);
+  line-height: var(--sub-heading-line-height);
+  font-style: var(--sub-heading-font-style);
+}
+
+.minimalistic-design .div-3 {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem; /* 20px */
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.minimalistic-design .work {
+  position: relative;
+  width: 50rem; /* 400px */
+  height: 42.875rem; /* 343px */
+  background-color: #d9d9d9;
+  border-radius: 1.5rem; /* 12px */
+  overflow: hidden;
+}
+
+.minimalistic-design .work-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.minimalistic-design .text-wrapper-7 {
+  position: absolute;
+  width: 45rem; /* 360px */
+  top: 0;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: var(--x-130009);
+  font-size: 3rem; /* 28px */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.minimalistic-design .div-wrapper {
+  display: inline-flex;
+  height: 4.375rem; /* 35px */
+  align-items: center;
+  gap: 1.25rem; /* 10px */
+  padding: 1.25rem 2.5rem; /* 10px 20px */
+  position: absolute;
+  top: 2.5rem; /* 20px */
+  left: 2.5rem; /* 20px */
+  background-color: var(--x-8d-0949);
+  border-radius: 4.25rem; /* 34px */
+  justify-content: center;
+  z-index: 2; 
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* horizontal, vertical, blur, opacity */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.minimalistic-design .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.125rem; /* -1px */
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: rgba(232, 232, 232, 1);
+  font-size: 1.5rem; /* 12px */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+.minimalistic-design .see-more {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem; /* 10px */
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.minimalistic-design .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.125rem; /* -1px */
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: var(--x-4f-4f-4f);
+  font-size: 2.5rem; /* 20px */
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+/*EXPERIENCE*/
+
+.minimalistic-design .experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem; /* 80px */
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.minimalistic-design .text-wrapper-10 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -0.125rem; /* -1px */
+  font-family: var(--heading-1-font-family);
+  font-weight: var(--heading-1-font-weight);
+  color: var(--x-8d-0949);
+  font-size: 8.5rem; /* 76px */
+  letter-spacing: -0.3rem; /* -1.52px */
+  line-height: 10rem; /* 92px */
+  font-style: var(--heading-1-font-style);
+}
+
+.minimalistic-design .exp {
+  display: flex;  
+  flex-direction:row; 
+  gap: 8rem; 
+  align-items: center;
+  justify-content:center;
+  align-items:center;  
+}
+
+.minimalistic-design .exp-1 {
+  display: flex;
+  flex-direction:column; 
+  flex: 0 0 31rem;
+  justify-content: center; 
+  align-items: center;
+  gap: 2rem;
+}
+
+.minimalistic-design .text-wrapper-11 {
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  font-size: 2.8rem;
+  text-align: center;
+  letter-spacing: -0.06rem;
+  line-height: normal;
+  color: #130009;
+}
+
+.minimalistic-design .span {
+  letter-spacing: -0.015rem; 
+  font-size: 2.5rem;
+  font-size: 20px; 
+  text-align: center;
+}
+
+
+.minimalistic-design .span-wrapper {
+  font-family: "Montserrat", Helvetica;
+  text-align: center;
+  line-height: normal;
+}
+
+/*SKILLS*/
+
+.minimalistic-design .div-4 {
+  display: flex;
+  align-items: flex-start;
+  gap: 15.5rem; /* 124px */
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.minimalistic-design .skills {
+  display: flex;
+  flex-direction: column;
+  width: 76.375rem; /* 611px */
+  align-items: flex-start;
+  gap: 5.5rem; /* 44px */
+  position: relative;
+}
+
+.minimalistic-design .div-5 {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.minimalistic-design .group {
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  gap: 1rem;
+  width: 67rem;
+}
+
+.minimalistic-design .skill-badge {
+  font-size: 2rem; 
+  padding: 2rem 3rem; 
+  border-radius: 3rem; 
+  border: 1px solid #4f4f4f;
+  color: #4f4f4f;
+}
+
+.minimalistic-design .badge-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.125rem; /* -1px */
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: var(--x-4f-4f-4f);
+  font-size: 2rem; /* 16px */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/*CONTACT*/
+
+.minimalistic-design .frame-19 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 67rem;
+  gap: 5rem; 
+}
+
+.minimalistic-design .complete-the-form {
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: var(--x-4f-4f-4f);
+  font-size: 2.5rem;
+  letter-spacing: 0;
+  line-height: 3.5rem;
+}
+
+.minimalistic-design .text-wrapper-14 {
+  color: #4f4f4f;
+}
+
+.minimalistic-design .text-wrapper-15 {
+  color: #8d0949;
+  text-decoration: underline;
+}
+
+.minimalistic-design .frame-20 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem; /* 16px */
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.minimalistic-design .frame-21 {
+  display: flex;
+  width: 37rem; /* 296px */
+  align-items: center;
+  gap: 0.9375rem; /* 7.5px */
+  padding: 2rem 3.25rem; /* 16px 26px */
+  position: relative;
+  border-radius: 4.125rem; /* 33px */
+  border: 0.125rem solid; /* 1px */
+  border-color: #4f4f4f;
+  background: transparent;
+  font-family: "Montserrat", Helvetica;
+  font-size: 2rem; /* 16px */
+  color: var(--x-797979);
+}
+
+.minimalistic-design .frame-21::placeholder {
+  color: var(--x-797979);
+}
+
+.minimalistic-design .text-wrapper-16 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.125rem; /* -1px */
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: var(--x-797979);
+  font-size: 2rem; /* 16px */
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.minimalistic-design .frame-22 {
+  display: flex;
+  align-items: center;
+  padding: 2rem 3.5rem;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-radius: 4.125rem; 
+  border: 0.125rem solid; 
+  border-color: #4f4f4f;
+  background: transparent;
+  font-family: "Montserrat", Helvetica;
+  font-size: 2rem; 
+  color: var(--x-797979);
+}
+
+.minimalistic-design .frame-22::placeholder {
+  color: var(--x-797979);
+}
+
+.minimalistic-design .frame-23 {
+  display: flex;
+  height: 26rem; 
+  align-items: flex-start;
+  gap: 0.9375rem; 
+  padding: 3rem 3.5rem; 
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  border-radius: 4.125rem; 
+  border: 0.125rem solid; 
+  border-color: #4f4f4f;
+  background: transparent;
+  font-family: "Montserrat", Helvetica;
+  font-size: 2rem;
+  color: var(--x-797979);
+  resize: vertical;
+}
+
+.minimalistic-design .frame-23::placeholder {
+  color: var(--x-797979);
+}
+
+.minimalistic-design .frame-24 {
+  display: flex;
+  width: 23.75rem; /* 190px */
+  align-items: center;
+  justify-content: center;
+  gap: 0.9375rem; /* 7.5px */
+  padding: 2rem 3.25rem; /* 16px 26px */
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--x-8d-0949);
+  border-radius: 4.125rem; /* 33px */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.minimalistic-design .frame-24:hover {
+  background-color: #a50b56;
+}
+
+.minimalistic-design .text-wrapper-17 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.09375rem; /* -0.75px */
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: var(--e-8e-8e-8);
+  font-size: 2rem; /* 16px */
+  letter-spacing: 0;
+  line-height: normal;
+  color: rgba(232, 232, 232, 1);
+  
+}
+
+.minimalistic-design .text-wrapper-18 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -0.125rem; /* -1px */
+  font-family: var(--sub-heading-font-family);
+  font-weight: var(--sub-heading-font-weight);
+  color: var(--x-4f-4f-4f);
+  font-size: 3.5rem; /* 28px */
+  letter-spacing: var(--sub-heading-letter-spacing);
+  line-height: var(--sub-heading-line-height);
+  font-style: var(--sub-heading-font-style);
+}
+
+.minimalistic-design .div-6 {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.minimalistic-design .social-1 {
+  position: relative;
+  content: url("svg/linkedIn.svg");
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.minimalistic-design .social-2 {
+  position: relative;
+  content: url("svg/behance.svg");
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.minimalistic-design .frame-25 {
+  display: inline-flex;
+  align-items: center;
+  gap: 2.5rem; /* 20px */
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.minimalistic-design .frame-26 {
+  display: flex;
+  width: 23.75rem; /* 190px */
+  align-items: center;
+  justify-content: center;
+  gap: 2rem; /* 16px */
+  padding: 2rem 3.25rem; /* 16px 26px */
+  position: relative;
+  border-radius: 4.125rem; /* 33px */
+  border: 0.125rem solid; /* 1px */
+  border-color: #8d0949;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.minimalistic-design .frame-26:hover {
+  background-color: var(--x-8d-0949);
+}
+
+.minimalistic-design .frame-26:hover .badge-text {
+  color: var(--e-8e-8e-8);
+}
+
+.minimalistic-design .frame-26:hover .social-1 {
+  content: url("svg/linkedIn-hover.svg");
+}
+
+.minimalistic-design .frame-26:hover .social-2 {
+  content: url("svg/behance-hover.svg");
+}
+
+
+.minimalistic-design .footer {
+  font-family: "Montserrat", Helvetica;
+  text-align: center;
+  padding: 20px;
+  color: rgba(19, 0, 9, 1);              /* white text */
+  font-size: 1.5rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Form Message Styles */
+.form-message {
+  padding: 1.5rem 2.5rem; /* 12px 20px */
+  border-radius: 1rem; /* 8px */
+  margin-bottom: 2rem; /* 16px */
+  font-family: "Montserrat", Helvetica;
+  font-size: 1.75rem; /* 14px */
+  font-weight: 500;
+  text-align: center;
+}
+
+.error-message {
+  background-color: #fee;
+  color: #c53030;
+  border: 0.125rem solid #feb2b2; /* 1px */
+}
+
+.success-message {
+  background-color: #f0fff4;
+  color: #2f855a;
+  border: 0.125rem solid #9ae6b4; /* 1px */
+}
+
+/* Enhanced form input focus states */
+.minimalistic-design .frame-21:focus,
+.minimalistic-design .frame-22:focus,
+.minimalistic-design .frame-23:focus {
+  outline: none;
+  border-color: var(--x-8d-0949);
+  box-shadow: 0 0 0 0.375rem rgba(141, 9, 73, 0.1); /* 3px */
+}
+
+/* Button loading state */
+.minimalistic-design .frame-24:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Work item hover effects */
+.minimalistic-design .work {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Skill tag hover effects */
+.minimalistic-design .skill-badge {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Contact button hover effect */
+.minimalistic-design .contact-button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.minimalistic-design .contact-button:hover {
+  background-color: #a50b56;
+  transform: translateY(-0.25rem); /* -2px */
+  box-shadow: 0 0.625rem 1.875rem rgba(141, 9, 73, 0.3); /* 5px 15px */
+}
+
+/* Learn more and see more button hover effects */
+.minimalistic-design .learn-more,
+.minimalistic-design .see-more {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.minimalistic-design .learn-more:hover .text-wrapper-5,
+.minimalistic-design .see-more:hover .text-wrapper-9 {
+  color: var(--x-8d-0949);
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 1440px) {
+  .minimalistic-design .frame-wrapper {
+    width: 100vw;
+    max-width: 180rem; /* 1440px */
+  }
+  
+  .minimalistic-design .frame {
+    width: calc(100vw - 25rem); /* Responsive width with padding */
+    max-width: 155.25rem; /* 1242px */
+    left: 12.5rem; /* 100px */
+  }
+}
+
+@media (max-width: 1200px) {
+  .minimalistic-design .frame {
+    left: 5rem; /* 40px */
+    width: calc(100vw - 10rem);
+  }
+  
+  .minimalistic-design .header {
+    gap: 8rem; /* 64px */
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .minimalistic-design .div-2,
+  .minimalistic-design .div-4 {
+    flex-direction: column;
+    gap: 5rem; /* 40px */
+  }
+  
+  .minimalistic-design .div-3 {
+    flex-direction: column;
+    gap: 2.5rem; /* 20px */
+  }
+  
+  .minimalistic-design .exp {
+    flex-direction: column;
+    gap: 3rem; /* 24px */
+  }
+  
+  .minimalistic-design .top-skills {
+    flex-direction: column;
+    gap: 3rem; /* 24px */
+  }
+}
+
+@media (max-width: 768px) {
+  .minimalistic-design .frame {
+    left: 2.5rem; /* 20px */
+    width: calc(100vw - 5rem);
+  }
+  
+  .minimalistic-design .jessica {
+    font-size: 6rem; /* 48px */
+    line-height: 7rem; /* 56px */
+  }
+  
+  .minimalistic-design .heading-1,
+  .minimalistic-design .text-wrapper-10 {
+    font-size: 6rem; /* 48px */
+    line-height: 7rem; /* 56px */
+  }
+}
